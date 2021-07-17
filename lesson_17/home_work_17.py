@@ -13,61 +13,58 @@ class Car:
         self.power = power
         self.year = year
         self.launch = False
-        self.direction_1 = None
-        self.direction_2 = None
-        self.direction_3 = None
-        self.direction_4 = None
+        self.vector = None
 
     def start(self):
         if self.launch:
             print(f"{self.model} is already started")
         else:
-            print(f"{self.model} is started")
             self.launch = True
+            print(f"{self.model} is started")
 
     def stop(self):
         if not self.launch:
             print(f"{self.model} is already muted")
         else:
-            print(f"{self.model} is drowned out")
             self.launch = False
+            print(f"{self.model} is drowned out")
 
     def straight(self):
         if not self.launch:
             print("car is not started")
-        elif self.direction_1:
+        elif self.vector == "straight":
             print(f"{self.model} is already going straight")
         else:
             print(f"{self.model} is going straight")
-            self.direction_1 = True
+            self.vector = "straight"
 
     def back(self):
         if not self.launch:
             print("car is not started")
-        elif self.direction_2:
+        elif self.vector == "back":
             print(f"{self.model} is already going back")
         else:
             print(f"{self.model} is going backwards")
-            self.direction_2 = True
+            self.vector = "back"
 
     def left(self):
         if not self.launch:
             print("car is not started")
-        elif self.direction_3:
+        elif self.vector == "left":
             print(f"{self.model} is already going to the left")
         else:
             print(f"{self.model} is goes to the left")
-            self.direction_3 = True
+            self.vector = "left"
 
 
     def right(self):
         if not self.launch:
             print("car is not started")
-        elif self.direction_4:
+        elif self.vector == "right":
             print(f"{self.model} is already going to the right")
         else:
             print(f"{self.model} is goes to the right")
-            self.direction_4 = True
+            self.vector = "right"
 
 
 suzuki = Car('vitara', 'red', 150, 2020)
