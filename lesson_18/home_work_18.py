@@ -68,7 +68,7 @@ class Car:
 
     def check_velocity(self):
         if self.speed > self.__class__.speed_limit:
-            print(f"Вы превышаете скорость рекомендованную производителем {self.__class__.speed_limit}")
+            print(f"Вы превышаете скорость рекомендованную производителем: {self.__class__.speed_limit} км/ч")
 
 class Ambulance(Car):
     speed_limit = 90
@@ -93,10 +93,13 @@ class Ambulance(Car):
 
 
 
-ambulance = Ambulance("GAZ", "red", 78, 2000, 98)
+ambulance = Ambulance("GAZ", "red", 78, 2000, 120)
 ambulance.on_sirena()
 ambulance.on_sirena()
 ambulance.on_sirena()
 ambulance.off_sirena()
 ambulance.off_sirena()
+ambulance.start()
+ambulance.straight()
+ambulance.check_velocity()
 
