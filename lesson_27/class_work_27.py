@@ -55,3 +55,4 @@ with connection.cursor() as cursor:
     cursor.execute(STOCKS_SELECT_QUERY)
     for el in cursor:
         print(el)
+
