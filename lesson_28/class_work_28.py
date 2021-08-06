@@ -32,3 +32,4 @@ def delete_product_by_id(product_id):
 get_all_products(19)
 insert_new_product('Макароны2', 500)
 delete_product_by_id(4)
+
