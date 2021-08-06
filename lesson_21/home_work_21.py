@@ -25,3 +25,4 @@ while True:
 
 with open("user_data.json", "w") as json_obj:
     json.dump(obj=data, fp=json_obj)
+
