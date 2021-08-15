@@ -15,10 +15,11 @@ class Tumbochka:
         self.created_dt = datetime.now()
         self.content = []  # изначально тумбочка будет создаваться всегда пустая
 
-    def add_into(self, subject):
-        self.content.append(subject)
-        for self.content in subject:
-            print(*self.content)
+    def add_into(self, *args):
+        self.content += args
+
+        # for content in self.content:
+        #     print(*content)
 
 
     def __str__(self):
@@ -33,12 +34,12 @@ a = 1
 b = 2
 c = 3
 d = "TEST"
-total = [a, b, c, d]
-tumbochka.add_into(a)
-tumbochka.add_into(b)
-tumbochka.add_into(c)
-tumbochka.add_into(d)
-tumbochka.add_into(total)
-print(tumbochka.content)
+# total = [a, b, c, d]
+# tumbochka.add_into(a)
+# tumbochka.add_into(b)
+# tumbochka.add_into(c)
+# tumbochka.add_into(d)
+# tumbochka.add_into(total)
+# print(tumbochka.content)
 tumbochka.add_into([1, 2, "hello"])
 print(tumbochka.content)
