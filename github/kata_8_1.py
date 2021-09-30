@@ -3,9 +3,6 @@ https://www.codewars.com/kata/570e8ec4127ad143660001fd
 https://www.codewars.com/kata/57a1fd2ce298a731b20006a4
 https://www.codewars.com/kata/55ecd718f46fba02e5000029
 https://www.codewars.com/kata/50ee6b0bdeab583673000025
-https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6
-
-
 
 """
 # 1
@@ -47,9 +44,5 @@ https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6
 # name = a + b
 #
 # print(name)
-
-# 5
-def cockroach_speed(s):
-    
 
 
