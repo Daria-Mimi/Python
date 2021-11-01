@@ -12,16 +12,19 @@ def help(message):
     bot.send_message(message.from_user.id, "Данный бот написан для того, чтобы помочь тебе подготовиться к собеседованию.\n"
                                            "Чтобы начать собеседование, выполни команду /ask_me.")
 
-@bot.message_handler(commands=['ask_me'])
+@bot.message_handler(content_types=['text'])
 def ask_me(message):
-    bot.send_message(message.from_user.id, "Строки (str) относятся к изменяемуму типу данных?")
-    if message.text == "Нет":
-        bot.send_message(message.from_user.id, "Правильный ответ!")
-    elif message.text == "Да":
-        bot.send_message(message.from_user.id, "Это не правильный ответ. Ознакомься с информацией на сайте:\n"
-                                                      "http://old.pynsk.ru/posts/2015/Aug/17/sintaksis-python-izmeniaemye-i-neizmeniaemye-tipy-dannykh/#.YYAQoZ5Bw2w")
+    if message.text == "/ask_me":
+        bot.send_message(message.from_user.id, "Строки (str) относятся к изменяемуму типу данных?")
+        if message.text == "Нет":
+            bot.send_message(message.from_user.id, "Правильный ответ!")
+        elif message.text == "Да":
+            bot.send_message(message.from_user.id, "Это не правильный ответ. Ознакомься с информацией на сайте:\n"
+                                                   "http://old.pynsk.ru/posts/2015/Aug/17/sintaksis-python-izmeniaemye-i-neizmeniaemye-tipy-dannykh/#.YYAQoZ5Bw2w")
+        else:
+            bot.send_message(message.from_user.id, "Я тебя не понимаю.")
     else:
-        bot.send_message(message.from_user.id, "Я тебя не понимаю.")
+        bot.send_message(message.from_user.id, "Я тебя не понимаю. Чтобы начать собеседование, выполни команду /ask_me.")
 
 
 bot.polling()
