@@ -25,10 +25,10 @@ def question_1(message):
 
 @ask_me
 def question_2(message):
-    if message.text == "Нет".lower():
+    if message.text.lower() == "нет":
         bot.send_message(message.from_user.id, "Правильный ответ!")
     else:
-        message.text == message.text.lower()
+        message.text == message.text
         bot.send_message(message.from_user.id, "Это не правильный ответ. Ознакомься с информацией на сайте:\n"
                                                "http://old.pynsk.ru/posts/2015/Aug/17/sintaksis-python-izmeniaemye-i-neizmeniaemye-tipy-dannykh/#.YYAQoZ5Bw2w")
     bot.reply_to(message, text="Каким языком программирования является Python?")
@@ -36,10 +36,10 @@ def question_2(message):
 
 @ask_me
 def question_3(message):
-    if message.text == "Интерпретируемым":
+    if message.text.lower() == "интерпретируемым":
         bot.send_message(message.from_user.id, "Правильный ответ!")
     else:
-        message.text == message.text.lower()
+        message.text == message.text
         bot.send_message(message.from_user.id, "Это не правильный ответ. Ознакомься с информацией на сайте:\n"
                                                "https://otus.ru/nest/post/1547/")
     bot.reply_to(message, "На этом пока все")
