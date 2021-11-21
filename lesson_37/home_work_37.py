@@ -3,6 +3,8 @@ from telebot import TeleBot
 TOKEN = "2088516025:AAEe1W6IDI_udqJuHvJgNw0Jq3Uxbx3nqS8"
 bot = TeleBot(TOKEN)
 
+# doc = open("t_bot.txt", mode="a")
+
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.send_message(message.from_user.id, f"Добрый день, {message.from_user.full_name}!\nДобро пожаловать в чат-бот по подготовке к собеседованию!")
@@ -43,5 +45,7 @@ def question_3(message):
         bot.send_message(message.from_user.id, "Это не правильный ответ. Ознакомься с информацией на сайте:\n"
                                                "https://otus.ru/nest/post/1547/")
     bot.reply_to(message, "На этом пока все")
+
+
 
 bot.polling()
