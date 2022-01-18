@@ -1,6 +1,6 @@
 from telebot import TeleBot
 
-TOKEN = "1234567890"
+TOKEN = "2088516025:AAEe1W6IDI_udqJuHvJgNw0Jq3Uxbx3nqS8"
 bot = TeleBot(TOKEN)
 
 # doc = open("t_bot.txt", mode="a")
