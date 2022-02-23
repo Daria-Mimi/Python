@@ -11,12 +11,12 @@ def binary_search(list, item):
             return mid - 1
         else:
             low = mid + 1
-    return None
+    return False
 
 my_list = [1, 3, 5, 7, 9]
 
 print(binary_search(my_list, 3))
-print(binary_search(my_list, 6))
+print(binary_search(my_list, 8))
 print(binary_search(my_list, 9))
 
 
