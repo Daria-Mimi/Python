@@ -13,4 +13,30 @@ def quicksort(array):
     greater = [i for i in array[1:] if i > pivot]
     return quicksort(less) + [pivot] + quicksort(greater)
 
-print(quicksort([10, 5, 2, 3]))
+print(quicksort([10, 5, 7, 9, 2, 3]))
+
+#  функция для суммы всех элементов в списке
+# def sum(arr):
+#   total = 0
+#   for x in arr:
+#     total += x
+#   return total
+#
+# print(sum([1, 2, 3, 4]))
+
+# def sum(list):
+#   if list == []:
+#     return 0
+#   return list[0] + sum(list[1:])
+#
+# print(sum([1, 2, 3, 4, 5]))
+
+# рекурсивная функция для подсчета элементов в списке
+# def count(list):
+#   if list == []:
+#     return 0
+#   return 1 + count(list[1:])
+#
+# print(count([1, 2, 3, 4, 5]))
+
+
