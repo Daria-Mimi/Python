@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0687aae-8d9c-4e95-b67a-699a248c4481" name="Changes" comment="some tasks">
-      <change afterPath="$PROJECT_DIR$/books/grokking_algorithms/chapter_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_luchanos/task_oop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/repeat_oop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
