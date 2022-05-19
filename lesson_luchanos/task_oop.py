@@ -15,3 +15,5 @@ class Point:
 point = Point()
 point.coord(3, 5)
 print(point)
+
+
