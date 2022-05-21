@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0687aae-8d9c-4e95-b67a-699a248c4481" name="Changes" comment="some tasks">
-      <change afterPath="$PROJECT_DIR$/tasks/repeat_oop1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_luchanos/lesson_18/class_work_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_luchanos/lesson_18/class_work_18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_luchanos/task_oop.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_luchanos/task_oop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
-  <component name="RunManager" selected="Python.repeat_oop1">
+  <component name="RunManager" selected="Python.task_oop">
     <configuration name="chapter_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_oop" />
         <item itemvalue="Python.repeat_oop1" />
         <item itemvalue="Python.class_work_18" />
-        <item itemvalue="Python.task_oop" />
         <item itemvalue="Python.repeat_oop" />
         <item itemvalue="Python.chapter_7" />
       </list>
