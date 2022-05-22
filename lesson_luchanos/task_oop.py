@@ -11,6 +11,9 @@ class Point:
     def __str__(self):
         return f"x coord: {self.__coord_x}, y coord: {self.__coord_y}"
 
+    def __repr__(self):
+        return f"x coord: {self.__coord_x}, y coord: {self.__coord_y}"
+
 
 point = Point()
 point.coord(3, 5)
