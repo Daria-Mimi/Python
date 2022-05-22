@@ -4,17 +4,18 @@ class Point:
         self.__coord_x = coord_x
         self.__coord_y = coord_y
 
-    def coord(self, x, y):
+    def set_coord(self, x, y):
         self.__coord_x = x
         self.__coord_y = y
+
+    def get_coord(self):
+        return self.__coord_x, self.__coord_y
 
     def __str__(self):
         return f"x coord: {self.__coord_x}, y coord: {self.__coord_y}"
 
-    def __repr__(self):
-        return f"x coord: {self.__coord_x}, y coord: {self.__coord_y}"
-
 
 point = Point()
-point.coord(3, 5)
+point.set_coord(3, 5)
+point.get_coord()
 print(point)
