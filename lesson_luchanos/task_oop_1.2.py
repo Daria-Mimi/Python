@@ -25,10 +25,10 @@ class DPoint(Point):
         self._coord_z = coord_z
 
     def get_coord(self):
-        return self._coord_x, self._coord_y
+        return super().get_coord(), self._coord_z
 
     def __str__(self):
-        return f"x coord: {self._coord_x}, y coord: {self._coord_y}, z coord: {self._coord_z}"
+        return f"{super().__str__()}, z coord: {self._coord_z}"
 
 
 dpoint = DPoint()
