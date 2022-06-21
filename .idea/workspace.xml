@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0687aae-8d9c-4e95-b67a-699a248c4481" name="Changes" comment="some tasks">
-      <change afterPath="$PROJECT_DIR$/tasks/repeat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/repeat_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.repeat">
+  <component name="RunManager" selected="Python.repeat_1">
     <configuration name="home_work_16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_oop_1.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="repeat_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_luchanos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_luchanos/task_oop_1.3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/repeat_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tasks_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tasks_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/tasks_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/tasks_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.repeat_1" />
+        <item itemvalue="Python.tasks_4" />
         <item itemvalue="Python.repeat" />
         <item itemvalue="Python.home_work_16" />
         <item itemvalue="Python.tasks_2" />
-        <item itemvalue="Python.tasks_3" />
-        <item itemvalue="Python.task_oop_1.3" />
       </list>
     </recent_temporary>
   </component>
