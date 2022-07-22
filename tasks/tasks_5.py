@@ -30,7 +30,7 @@ https://www.codewars.com/kata/56cd44e1aa4ac7879200010b
 
 # 2
 # def is_uppercase(inp):
-#     return inp.isupper()
+#     return inp.upper() == inp
 #
 # print(is_uppercase("c"))
 # print(is_uppercase("C"))
